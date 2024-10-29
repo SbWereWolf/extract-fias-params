@@ -13,7 +13,7 @@ $startMoment = hrtime(true);
 $message = 'Script is starting';
 echo $message . PHP_EOL;
 
-$pathParts = [__DIR__, '..', 'vendor', 'autoload.php',];
+$pathParts = [__DIR__, 'vendor', 'autoload.php'];
 $autoloaderPath = join(DIRECTORY_SEPARATOR, $pathParts);
 require_once($autoloaderPath);
 
