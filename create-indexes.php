@@ -76,20 +76,9 @@ $templatesKitList = [
     'ADDR_OBJ_PARAMS',
     'ADDRESSOBJECTS',
     'ADM_HIERARCHY',
-    'APARTMENTS',
-    'APARTMENTS_PARAMS',
-    'CARPLACES',
-    'CARPLACES_PARAMS',
-    'CHANGE_HISTORY',
     'HOUSES',
     'HOUSES_PARAMS',
     'MUN_HIERARCHY',
-    'NORMDOCS',
-    'REESTR_OBJECTS',
-    'ROOMS',
-    'ROOMS_PARAMS',
-    'STEADS',
-    'STEADS_PARAMS',
 ];
 $command->run($templatesKitList, 'create-index.php');
 

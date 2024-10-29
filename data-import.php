@@ -117,34 +117,12 @@ $options = new ImportOptions(
             'AS_ADDR_OBJ_PARAMS_20*.{x,X}{m,M}{l,L}',
         AdministrativeHierarchy::class =>
             'AS_ADM_HIERARCHY_20*.{x,X}{m,M}{l,L}',
-        Apartments::class =>
-            'AS_APARTMENTS_20*.{x,X}{m,M}{l,L}',
-        ApartmentsParams::class =>
-            'AS_APARTMENTS_PARAMS_20*.{x,X}{m,M}{l,L}',
-        CarPlaces::class =>
-            'AS_CARPLACES_20*.{x,X}{m,M}{l,L}',
-        CarPlacesParams::class =>
-            'AS_CARPLACES_PARAMS_20*.{x,X}{m,M}{l,L}',
-        ChangeHistory::class =>
-            'AS_CHANGE_HISTORY_20*.{x,X}{m,M}{l,L}',
         Houses::class =>
             'AS_HOUSES_20*.{x,X}{m,M}{l,L}',
         HousesParams::class =>
             'AS_HOUSES_PARAMS_20*.{x,X}{m,M}{l,L}',
         MunicipalHierarchy::class =>
             'AS_MUN_HIERARCHY_20*.{x,X}{m,M}{l,L}',
-        NormativeDocuments::class =>
-            'AS_NORMATIVE_DOCS_20*.{x,X}{m,M}{l,L}',
-        ReestrObjects::class =>
-            'AS_REESTR_OBJECTS_20*.{x,X}{m,M}{l,L}',
-        Rooms::class =>
-            'AS_ROOMS_20*.{x,X}{m,M}{l,L}',
-        RoomsParams::class =>
-            'AS_ROOMS_PARAMS_20*.{x,X}{m,M}{l,L}',
-        Steads::class =>
-            'AS_STEADS_20*.{x,X}{m,M}{l,L}',
-        SteadsParams::class =>
-            'AS_STEADS_PARAMS_20*.{x,X}{m,M}{l,L}',
     ],
 );
 
