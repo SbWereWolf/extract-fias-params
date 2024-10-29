@@ -85,28 +85,7 @@ $command = new ImportCommand($connection, $logger, $directory);
 $doAddNewWithCheck = constant('DO_IMPORT_WITH_CHECK') !== 'FALSE';
 $options = new ImportOptions(
     $doAddNewWithCheck,
-    [
-        AddHouseTypes::class =>
-            'AS_ADDHOUSE_TYPES_20*.{x,X}{m,M}{l,L}',
-        AddressObjectTypes::class =>
-            'AS_ADDR_OBJ_TYPES_20*.{x,X}{m,M}{l,L}',
-        ApartmentTypes::class =>
-            'AS_APARTMENT_TYPES_20*.{x,X}{m,M}{l,L}',
-        HouseTypes::class =>
-            'AS_HOUSE_TYPES_20*.{x,X}{m,M}{l,L}',
-        NormativeDocumentsKinds::class =>
-            'AS_NORMATIVE_DOCS_KINDS_20*.{x,X}{m,M}{l,L}',
-        NormativeDocumentsTypes::class =>
-            'AS_NORMATIVE_DOCS_TYPES_20*.{x,X}{m,M}{l,L}',
-        ObjectLevels::class =>
-            'AS_OBJECT_LEVELS_20*.{x,X}{m,M}{l,L}',
-        OperationTypes::class =>
-            'AS_OPERATION_TYPES_20*.{x,X}{m,M}{l,L}',
-        ParamTypes::class =>
-            'AS_PARAM_TYPES_20*.{x,X}{m,M}{l,L}',
-        RoomTypes::class =>
-            'AS_ROOM_TYPES_20*.{x,X}{m,M}{l,L}',
-    ],
+    [ ],
     '{59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,99}',
     [
         AddressObjects::class =>
