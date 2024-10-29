@@ -1,0 +1,3 @@
+ALTER TABLE ROOMS
+ATTACH PARTITION ROOMS<?= $suffix ?> FOR
+VALUES IN (<?= $suffix ?>)

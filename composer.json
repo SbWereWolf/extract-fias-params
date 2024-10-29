@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sbwerewolf/fias-gar-schema-deploy-tool": "^2.0",
+        "sbwerewolf/fias-gar-data-import-tool": "^1.0"
+    }
+}

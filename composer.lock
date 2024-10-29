@@ -1,0 +1,254 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ae3b7e21bb991b8d8cb40f1605b3a2bd",
+    "packages": [
+        {
+            "name": "psr/log",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "time": "2024-09-11T13:17:53+00:00"
+        },
+        {
+            "name": "sbwerewolf/batch-file-scripting",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SbWereWolf/batch-file-scripting.git",
+                "reference": "7976ae57edb67c7b81b7f6f00d85869c22d50be4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SbWereWolf/batch-file-scripting/zipball/7976ae57edb67c7b81b7f6f00d85869c22d50be4",
+                "reference": "7976ae57edb67c7b81b7f6f00d85869c22d50be4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "sbwerewolf/json-serialize-trait": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Volkhin",
+                    "email": "ulfnew@gmail.com"
+                }
+            ],
+            "description": "Kit of utility classes for batch file scripting",
+            "support": {
+                "issues": "https://github.com/SbWereWolf/batch-file-scripting/issues",
+                "source": "https://github.com/SbWereWolf/batch-file-scripting/tree/v2.0.2"
+            },
+            "time": "2023-02-11T23:39:38+00:00"
+        },
+        {
+            "name": "sbwerewolf/fias-gar-data-import-tool",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SbWereWolf/fias-gar-data-import-tool.git",
+                "reference": "b5f8c60cab50c538ebb095c75e69c71f2443938e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SbWereWolf/fias-gar-data-import-tool/zipball/b5f8c60cab50c538ebb095c75e69c71f2443938e",
+                "reference": "b5f8c60cab50c538ebb095c75e69c71f2443938e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-pdo": "*",
+                "ext-xmlreader": "*",
+                "psr/log": "^3.0",
+                "sbwerewolf/batch-file-scripting": "^2.0",
+                "sbwerewolf/json-serialize-trait": "^1.0"
+            },
+            "require-dev": {
+                "monolog/monolog": "^3.2"
+            },
+            "type": "tool",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Volkhin",
+                    "email": "ulfnew@gmail.com"
+                }
+            ],
+            "description": "Tool to import FIAS GAR database",
+            "support": {
+                "issues": "https://github.com/SbWereWolf/fias-gar-data-import-tool/issues",
+                "source": "https://github.com/SbWereWolf/fias-gar-data-import-tool/tree/v1.0.2"
+            },
+            "time": "2023-01-26T19:38:37+00:00"
+        },
+        {
+            "name": "sbwerewolf/fias-gar-schema-deploy-tool",
+            "version": "v2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SbWereWolf/fias-gar-schema-deploy-tool.git",
+                "reference": "a73826d84a3e247703c335111ea1c2f03f736486"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SbWereWolf/fias-gar-schema-deploy-tool/zipball/a73826d84a3e247703c335111ea1c2f03f736486",
+                "reference": "a73826d84a3e247703c335111ea1c2f03f736486",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "psr/log": "^3.0",
+                "sbwerewolf/batch-file-scripting": "^2.0",
+                "sbwerewolf/json-serialize-trait": "^1.0"
+            },
+            "require-dev": {
+                "monolog/monolog": "^3.2"
+            },
+            "type": "tool",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Volkhin",
+                    "email": "ulfnew@gmail.com"
+                }
+            ],
+            "description": "Kit of templates and scripts to deploy FIAS GAR database",
+            "support": {
+                "issues": "https://github.com/SbWereWolf/fias-gar-schema-deploy-tool/issues",
+                "source": "https://github.com/SbWereWolf/fias-gar-schema-deploy-tool/tree/v2.0.5"
+            },
+            "time": "2023-02-10T23:52:02+00:00"
+        },
+        {
+            "name": "sbwerewolf/json-serialize-trait",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SbWereWolf/json-serialize-trait.git",
+                "reference": "c4858c307e2f17b783ddb21fb144e52e41ec7b14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SbWereWolf/json-serialize-trait/zipball/c4858c307e2f17b783ddb21fb144e52e41ec7b14",
+                "reference": "c4858c307e2f17b783ddb21fb144e52e41ec7b14",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Volkhin",
+                    "email": "ulfnew@gmail.com"
+                }
+            ],
+            "description": "Library with trait of ability to output all properties of class-exemplar at call json_encode()",
+            "support": {
+                "issues": "https://github.com/SbWereWolf/json-serialize-trait/issues",
+                "source": "https://github.com/SbWereWolf/json-serialize-trait/tree/v1.0.2"
+            },
+            "time": "2024-06-15T10:05:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
