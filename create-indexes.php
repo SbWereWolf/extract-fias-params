@@ -62,7 +62,7 @@ $command = new ExecuteSqlFromTemplatesCommand(
 );
 
 $templatesKitList = [
-    'ADDHOUSETYPES',
+    /*'ADDHOUSETYPES',
     'ADDRESSOBJECTTYPES',
     'APARTMENTTYPES',
     'HOUSETYPES',
@@ -71,7 +71,7 @@ $templatesKitList = [
     'OBJECTLEVELS',
     'OPERATIONTYPES',
     'PARAMTYPES',
-    'ROOMTYPES',
+    'ROOMTYPES',*/
     /*'ADDR_OBJ_PARAMS',*/
     'ADDRESSOBJECTS',
     'ADM_HIERARCHY',
