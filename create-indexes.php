@@ -72,13 +72,12 @@ $templatesKitList = [
     'OPERATIONTYPES',
     'PARAMTYPES',
     'ROOMTYPES',
-    'ADDR_OBJ_DIVISION',
-    'ADDR_OBJ_PARAMS',
+    /*'ADDR_OBJ_PARAMS',*/
     'ADDRESSOBJECTS',
     'ADM_HIERARCHY',
-    'HOUSES',
+    /*'HOUSES',*/
     'HOUSES_PARAMS',
-    'MUN_HIERARCHY',
+    /*'MUN_HIERARCHY',*/
 ];
 $command->run($templatesKitList, 'create-index.php');
 
