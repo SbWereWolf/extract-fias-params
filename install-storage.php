@@ -66,16 +66,13 @@ $command = new ExecuteSqlFromTemplatesCommand(
 
 $templatesKitList = [
     'ADDHOUSETYPES',
-    'ADDR_OBJ_DIVISION',
     'ADDR_OBJ_PARAMS',
     'ADDRESSOBJECTS',
     'ADDRESSOBJECTTYPES',
     'ADM_HIERARCHY',
     'APARTMENTTYPES',
-    'HOUSES',
     'HOUSES_PARAMS',
     'HOUSETYPES',
-    'MUN_HIERARCHY',
     'NDOCKINDS',
     'NDOCTYPES',
     'OBJECTLEVELS',
@@ -88,13 +85,10 @@ $command->run($templatesKitList, 'create-table.php');
 $logger->notice("Starting create tables with partitions");
 
 $templatesKitList = [
-    'ADDR_OBJ_DIVISION',
     'ADDR_OBJ_PARAMS',
     'ADDRESSOBJECTS',
     'ADM_HIERARCHY',
-    'HOUSES',
     'HOUSES_PARAMS',
-    'MUN_HIERARCHY',
 ];
 $command->run(
     $templatesKitList,

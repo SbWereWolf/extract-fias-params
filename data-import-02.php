@@ -90,18 +90,12 @@ $options = new ImportOptions(
     [
         AddressObjects::class =>
             'AS_ADDR_OBJ_20*.{x,X}{m,M}{l,L}',
-        AddressObjectDivision::class =>
-            'AS_ADDR_OBJ_DIVISION_20*.{x,X}{m,M}{l,L}',
         AddressObjectParams::class =>
             'AS_ADDR_OBJ_PARAMS_20*.{x,X}{m,M}{l,L}',
         AdministrativeHierarchy::class =>
             'AS_ADM_HIERARCHY_20*.{x,X}{m,M}{l,L}',
-        Houses::class =>
-            'AS_HOUSES_20*.{x,X}{m,M}{l,L}',
         HousesParams::class =>
             'AS_HOUSES_PARAMS_20*.{x,X}{m,M}{l,L}',
-        MunicipalHierarchy::class =>
-            'AS_MUN_HIERARCHY_20*.{x,X}{m,M}{l,L}',
     ],
 );
 
