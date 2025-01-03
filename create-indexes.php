@@ -62,22 +62,10 @@ $command = new ExecuteSqlFromTemplatesCommand(
 );
 
 $templatesKitList = [
-    /*'ADDHOUSETYPES',
-    'ADDRESSOBJECTTYPES',
-    'APARTMENTTYPES',
-    'HOUSETYPES',
-    'NDOCKINDS',
-    'NDOCTYPES',
-    'OBJECTLEVELS',
-    'OPERATIONTYPES',
-    'PARAMTYPES',
-    'ROOMTYPES',*/
-    /*'ADDR_OBJ_PARAMS',*/
+    'ADDR_OBJ_PARAMS',
     'ADDRESSOBJECTS',
     'ADM_HIERARCHY',
-    /*'HOUSES',*/
     'HOUSES_PARAMS',
-    /*'MUN_HIERARCHY',*/
 ];
 $command->run($templatesKitList, 'create-index.php');
 
