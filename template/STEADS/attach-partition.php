@@ -1,3 +1,0 @@
-ALTER TABLE STEADS
-ATTACH PARTITION STEADS<?= $suffix ?> FOR
-VALUES IN (<?= $suffix ?>)

@@ -1,2 +1,0 @@
-CREATE UNIQUE INDEX CARPLACES<?= $suffix ?>_REGION_ID_ux
-ON CARPLACES<?= $suffix ?> (REGION,ID);

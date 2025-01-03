@@ -1,2 +1,0 @@
-CREATE UNIQUE INDEX ROOMS<?= $suffix ?>_REGION_ID_ux
-ON ROOMS<?= $suffix ?> (REGION,ID);
