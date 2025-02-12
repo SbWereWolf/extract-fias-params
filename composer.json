@@ -2,6 +2,7 @@
     "require": {
         "sbwerewolf/fias-gar-schema-deploy-tool": "^2.0",
         "sbwerewolf/fias-gar-data-import-tool": "^1.0",
-        "monolog/monolog": "^3.7"
+        "monolog/monolog": "^3.7",
+        "ext-pdo": "*"
     }
 }

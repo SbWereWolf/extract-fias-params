@@ -66,6 +66,7 @@ $templatesKitList = [
     'ADDRESSOBJECTS',
     'ADM_HIERARCHY',
     'HOUSES_PARAMS',
+    'MUN_HIERARCHY',
 ];
 $command->run($templatesKitList, 'create-index.php');
 

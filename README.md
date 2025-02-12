@@ -80,17 +80,13 @@ wget -P /mnt/pg-storage/download https://fias-file.nalog.ru/downloads/2024.10.29
 cd /mnt/pg-storage/download/gar_xml
  find ./ -name "AS_ADDR_OBJ_DIVISION_*.XML" -exec rm {} \;
  find ./ -name "AS_APARTMENTS_*.XML" -exec rm {} \;
- find ./ -name "AS_APARTMENTS_PARAMS_*.XML" -exec rm {} \;
  find ./ -name "AS_CARPLACES_*.XML" -exec rm {} \;
- find ./ -name "AS_CARPLACES_PARAMS_*.XML" -exec rm {} \;
  find ./ -name "AS_CHANGE_HISTORY_*.XML" -exec rm {} \;
- find ./ -name "AS_HOUSES_*.XML" -exec rm {} \;
- find ./ -name "AS_MUN_HIERARCHY_*.XML" -exec rm {} \;
+ find ./ -name "AS_HOUSES_20*.XML" -exec rm {} \;
  find ./ -name "AS_NORMATIVE_DOCS_*.XML" -exec rm {} \;
  find ./ -name "AS_REESTR_OBJECTS_*.XML" -exec rm {} \;
  find ./ -name "AS_ROOMS_*.XML" -exec rm {} \;
  find ./ -name "AS_STEADS_*.XML" -exec rm {} \;
- find ./ -name "AS_STEADS_PARAMS_*.XML" -exec rm {} \;
 ```
 ## Подготовим СУБД для импорта данных ФИАС
 

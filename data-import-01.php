@@ -117,6 +117,8 @@ $options = new ImportOptions(
             'AS_ADM_HIERARCHY_20*.{x,X}{m,M}{l,L}',
         HousesParams::class =>
             'AS_HOUSES_PARAMS_20*.{x,X}{m,M}{l,L}',
+        MunicipalHierarchy::class =>
+            'AS_MUN_HIERARCHY_20*.{x,X}{m,M}{l,L}',
     ],
 );
 
