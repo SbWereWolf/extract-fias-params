@@ -237,7 +237,7 @@ ImportOptions (`$referencePatterns`), это значения:
 Создание таблиц в БД это быстрый процесс, его необязательно выполнять
 как фоновую задачу.
 ```shell
-php ./create-indexes.php
+php ./install-storage.php
 ```
 В БД будут созданы таблицы.
 

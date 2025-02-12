@@ -73,6 +73,7 @@ $templatesKitList = [
     'APARTMENTTYPES',
     'HOUSES_PARAMS',
     'HOUSETYPES',
+    'MUN_HIERARCHY',
     'NDOCKINDS',
     'NDOCTYPES',
     'OBJECTLEVELS',
