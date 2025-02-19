@@ -5,34 +5,11 @@ use Monolog\Logger;
 use Monolog\LogRecord;
 use SbWereWolf\FiasGarDataImport\Cli\ImportCommand;
 use SbWereWolf\FiasGarDataImport\Cli\ImportOptions;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AddHouseTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectDivision;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectParams;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjects;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectTypes;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AdministrativeHierarchy;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Apartments;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ApartmentsParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ApartmentTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\CarPlaces;
-use SbWereWolf\FiasGarDataImport\Import\Processor\CarPlacesParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ChangeHistory;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Houses;
 use SbWereWolf\FiasGarDataImport\Import\Processor\HousesParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\HouseTypes;
 use SbWereWolf\FiasGarDataImport\Import\Processor\MunicipalHierarchy;
-use SbWereWolf\FiasGarDataImport\Import\Processor\NormativeDocuments;
-use SbWereWolf\FiasGarDataImport\Import\Processor\NormativeDocumentsKinds;
-use SbWereWolf\FiasGarDataImport\Import\Processor\NormativeDocumentsTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ObjectLevels;
-use SbWereWolf\FiasGarDataImport\Import\Processor\OperationTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ParamTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ReestrObjects;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Rooms;
-use SbWereWolf\FiasGarDataImport\Import\Processor\RoomsParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\RoomTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Steads;
-use SbWereWolf\FiasGarDataImport\Import\Processor\SteadsParams;
 use SbWereWolf\Scripting\Config\EnvReader;
 use SbWereWolf\Scripting\Convert\DurationPrinter;
 use SbWereWolf\Scripting\FileSystem\Path;
@@ -85,8 +62,8 @@ $command = new ImportCommand($connection, $logger, $directory);
 $doAddNewWithCheck = constant('DO_IMPORT_WITH_CHECK') !== 'FALSE';
 $options = new ImportOptions(
     $doAddNewWithCheck,
-    [ ],
-    '{59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,99}',
+    [],
+    '{29,30,31,32,33,34,35,36,37,38}',
     [
         AddressObjects::class =>
             'AS_ADDR_OBJ_20*.{x,X}{m,M}{l,L}',

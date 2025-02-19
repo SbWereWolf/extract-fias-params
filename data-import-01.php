@@ -6,33 +6,20 @@ use Monolog\LogRecord;
 use SbWereWolf\FiasGarDataImport\Cli\ImportCommand;
 use SbWereWolf\FiasGarDataImport\Cli\ImportOptions;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AddHouseTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectDivision;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectParams;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjects;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectTypes;
 use SbWereWolf\FiasGarDataImport\Import\Processor\AdministrativeHierarchy;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Apartments;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ApartmentsParams;
 use SbWereWolf\FiasGarDataImport\Import\Processor\ApartmentTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\CarPlaces;
-use SbWereWolf\FiasGarDataImport\Import\Processor\CarPlacesParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ChangeHistory;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Houses;
 use SbWereWolf\FiasGarDataImport\Import\Processor\HousesParams;
 use SbWereWolf\FiasGarDataImport\Import\Processor\HouseTypes;
 use SbWereWolf\FiasGarDataImport\Import\Processor\MunicipalHierarchy;
-use SbWereWolf\FiasGarDataImport\Import\Processor\NormativeDocuments;
 use SbWereWolf\FiasGarDataImport\Import\Processor\NormativeDocumentsKinds;
 use SbWereWolf\FiasGarDataImport\Import\Processor\NormativeDocumentsTypes;
 use SbWereWolf\FiasGarDataImport\Import\Processor\ObjectLevels;
 use SbWereWolf\FiasGarDataImport\Import\Processor\OperationTypes;
 use SbWereWolf\FiasGarDataImport\Import\Processor\ParamTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\ReestrObjects;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Rooms;
-use SbWereWolf\FiasGarDataImport\Import\Processor\RoomsParams;
 use SbWereWolf\FiasGarDataImport\Import\Processor\RoomTypes;
-use SbWereWolf\FiasGarDataImport\Import\Processor\Steads;
-use SbWereWolf\FiasGarDataImport\Import\Processor\SteadsParams;
 use SbWereWolf\Scripting\Config\EnvReader;
 use SbWereWolf\Scripting\Convert\DurationPrinter;
 use SbWereWolf\Scripting\FileSystem\Path;
@@ -107,7 +94,7 @@ $options = new ImportOptions(
         RoomTypes::class =>
             'AS_ROOM_TYPES_20*.{x,X}{m,M}{l,L}',
     ],
-    '{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33}',
+    '{01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18}',
     [
         AddressObjects::class =>
             'AS_ADDR_OBJ_20*.{x,X}{m,M}{l,L}',

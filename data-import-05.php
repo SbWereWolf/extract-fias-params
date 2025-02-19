@@ -5,11 +5,7 @@ use Monolog\Logger;
 use Monolog\LogRecord;
 use SbWereWolf\FiasGarDataImport\Cli\ImportCommand;
 use SbWereWolf\FiasGarDataImport\Cli\ImportOptions;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjectParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AddressObjects;
-use SbWereWolf\FiasGarDataImport\Import\Processor\AdministrativeHierarchy;
-use SbWereWolf\FiasGarDataImport\Import\Processor\HousesParams;
-use SbWereWolf\FiasGarDataImport\Import\Processor\MunicipalHierarchy;
+use SbWereWolf\FiasGarDataImport\Import\Processor\Houses;
 use SbWereWolf\Scripting\Config\EnvReader;
 use SbWereWolf\Scripting\Convert\DurationPrinter;
 use SbWereWolf\Scripting\FileSystem\Path;
@@ -63,18 +59,10 @@ $doAddNewWithCheck = constant('DO_IMPORT_WITH_CHECK') !== 'FALSE';
 $options = new ImportOptions(
     $doAddNewWithCheck,
     [],
-    '{19,20,21,22,23,24,25,26,27,28}',
+    '{51,52,53,54,55,56,57,58,59,60,61}',
     [
-        AddressObjects::class =>
-            'AS_ADDR_OBJ_20*.{x,X}{m,M}{l,L}',
-        AddressObjectParams::class =>
-            'AS_ADDR_OBJ_PARAMS_20*.{x,X}{m,M}{l,L}',
-        AdministrativeHierarchy::class =>
-            'AS_ADM_HIERARCHY_20*.{x,X}{m,M}{l,L}',
-        HousesParams::class =>
-            'AS_HOUSES_PARAMS_20*.{x,X}{m,M}{l,L}',
-        MunicipalHierarchy::class =>
-            'AS_MUN_HIERARCHY_20*.{x,X}{m,M}{l,L}',
+        Houses::class =>
+            'AS_HOUSES_20*.{x,X}{m,M}{l,L}',
     ],
 );
 
